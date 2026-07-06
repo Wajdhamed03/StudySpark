@@ -8,7 +8,6 @@ export const base44 = createClient({
   appId,
   token,
   functionsVersion,
-  serverUrl: '',
-  requiresAuth: false,
+serverUrl: 'https://studyspark-yh07.onrender.com',  requiresAuth: false,
   appBaseUrl
 });
