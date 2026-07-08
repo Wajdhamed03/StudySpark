@@ -64,7 +64,7 @@ export default function UploadPage() {
       }
 
       // استدعاء السيرفر الحقيقي الخاص بكِ على بورت 5000!
-      const response = await fetch("http://localhost:5000/api/generate", {
+     const response = await fetch("https://studyspark-yh07.onrender.com/api/generate", {
         method: "POST",
         body: formData,
       });
