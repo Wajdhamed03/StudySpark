@@ -26,7 +26,7 @@ export default function TutorPage() {
 
     try {
       // إرسال السؤال للباكيند الحقيقي
-      const response = await fetch("http://localhost:5000/api/tutor", {
+     const response = await fetch("https://studyspark-yh07.onrender.com/api/tutor", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: userMessage }),
